@@ -62,6 +62,7 @@ describe('Calculator', function() {
     controls.y = 'goodbye';
     controls.clickAdd();
     controls.result.should.equal('0');
+    document.getElementById('x').offsetWidth.should.equal(173);
   });
 
 });
